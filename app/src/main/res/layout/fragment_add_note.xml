@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/flip_geometric_bg"
     tools:context=".ui.AddNoteFragment">
 
     <EditText
@@ -12,7 +13,9 @@
         android:layout_marginHorizontal="20dp"
         android:hint="Title"
         android:inputType="text"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F4F1F1"
+        android:textColorHint="#FAF5F5" />
 
     <EditText
         android:id="@+id/edit_text_note"
@@ -23,7 +26,9 @@
         android:gravity="top"
         android:hint="Note"
         android:inputType="textMultiLine"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F4F1F1"
+        android:textColorHint="#FDFCFC" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/button_save"
